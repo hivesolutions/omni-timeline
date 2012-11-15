@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3883AD316554423004ECCDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3883AD216554423004ECCDA /* UIKit.framework */; };
+		C3883AD516554423004ECCDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3883AD416554423004ECCDA /* Foundation.framework */; };
+		C3883AD716554423004ECCDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3883AD616554423004ECCDA /* CoreGraphics.framework */; };
+		C3883ADD16554423004ECCDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3883ADB16554423004ECCDA /* InfoPlist.strings */; };
+		C3883ADF16554423004ECCDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3883ADE16554423004ECCDA /* main.m */; };
+		C3883AE316554423004ECCDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3883AE216554423004ECCDA /* AppDelegate.m */; };
+		C3883AE516554423004ECCDA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3883AE416554423004ECCDA /* Default.png */; };
+		C3883AE716554423004ECCDA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3883AE616554423004ECCDA /* Default@2x.png */; };
+		C3883AE916554423004ECCDA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3883AE816554423004ECCDA /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3883ACE16554423004ECCDA /* Omni Timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omni Timeline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3883AD216554423004ECCDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3883AD416554423004ECCDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3883AD616554423004ECCDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3883ADA16554423004ECCDA /* Omni Timeline-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Omni Timeline-Info.plist"; sourceTree = "<group>"; };
+		C3883ADC16554423004ECCDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3883ADE16554423004ECCDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3883AE016554423004ECCDA /* Omni Timeline-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Omni Timeline-Prefix.pch"; sourceTree = "<group>"; };
+		C3883AE116554423004ECCDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3883AE216554423004ECCDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3883AE416554423004ECCDA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3883AE616554423004ECCDA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3883AE816554423004ECCDA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3883ACB16554423004ECCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3883AD316554423004ECCDA /* UIKit.framework in Frameworks */,
+				C3883AD516554423004ECCDA /* Foundation.framework in Frameworks */,
+				C3883AD716554423004ECCDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3883AC316554423004ECCDA = {
+			isa = PBXGroup;
+			children = (
+				C3883AD816554423004ECCDA /* Omni Timeline */,
+				C3883AD116554423004ECCDA /* Frameworks */,
+				C3883ACF16554423004ECCDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3883ACF16554423004ECCDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3883ACE16554423004ECCDA /* Omni Timeline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3883AD116554423004ECCDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3883AD216554423004ECCDA /* UIKit.framework */,
+				C3883AD416554423004ECCDA /* Foundation.framework */,
+				C3883AD616554423004ECCDA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3883AD816554423004ECCDA /* Omni Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				C3883AE116554423004ECCDA /* AppDelegate.h */,
+				C3883AE216554423004ECCDA /* AppDelegate.m */,
+				C3883AD916554423004ECCDA /* Supporting Files */,
+			);
+			path = "Omni Timeline";
+			sourceTree = "<group>";
+		};
+		C3883AD916554423004ECCDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3883ADA16554423004ECCDA /* Omni Timeline-Info.plist */,
+				C3883ADB16554423004ECCDA /* InfoPlist.strings */,
+				C3883ADE16554423004ECCDA /* main.m */,
+				C3883AE016554423004ECCDA /* Omni Timeline-Prefix.pch */,
+				C3883AE416554423004ECCDA /* Default.png */,
+				C3883AE616554423004ECCDA /* Default@2x.png */,
+				C3883AE816554423004ECCDA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3883ACD16554423004ECCDA /* Omni Timeline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3883AEC16554423004ECCDA /* Build configuration list for PBXNativeTarget "Omni Timeline" */;
+			buildPhases = (
+				C3883ACA16554423004ECCDA /* Sources */,
+				C3883ACB16554423004ECCDA /* Frameworks */,
+				C3883ACC16554423004ECCDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Omni Timeline";
+			productName = "Omni Timeline";
+			productReference = C3883ACE16554423004ECCDA /* Omni Timeline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3883AC516554423004ECCDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hive Solutions";
+			};
+			buildConfigurationList = C3883AC816554423004ECCDA /* Build configuration list for PBXProject "Omni Timeline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3883AC316554423004ECCDA;
+			productRefGroup = C3883ACF16554423004ECCDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3883ACD16554423004ECCDA /* Omni Timeline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3883ACC16554423004ECCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3883ADD16554423004ECCDA /* InfoPlist.strings in Resources */,
+				C3883AE516554423004ECCDA /* Default.png in Resources */,
+				C3883AE716554423004ECCDA /* Default@2x.png in Resources */,
+				C3883AE916554423004ECCDA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3883ACA16554423004ECCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3883ADF16554423004ECCDA /* main.m in Sources */,
+				C3883AE316554423004ECCDA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3883ADB16554423004ECCDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3883ADC16554423004ECCDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3883AEA16554423004ECCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3883AEB16554423004ECCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3883AED16554423004ECCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Omni Timeline/Omni Timeline-Prefix.pch";
+				INFOPLIST_FILE = "Omni Timeline/Omni Timeline-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3883AEE16554423004ECCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Omni Timeline/Omni Timeline-Prefix.pch";
+				INFOPLIST_FILE = "Omni Timeline/Omni Timeline-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3883AC816554423004ECCDA /* Build configuration list for PBXProject "Omni Timeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3883AEA16554423004ECCDA /* Debug */,
+				C3883AEB16554423004ECCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3883AEC16554423004ECCDA /* Build configuration list for PBXNativeTarget "Omni Timeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3883AED16554423004ECCDA /* Debug */,
+				C3883AEE16554423004ECCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3883AC516554423004ECCDA /* Project object */;
+}
