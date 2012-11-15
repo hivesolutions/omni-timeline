@@ -52,15 +52,39 @@
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    UIImageView *balloon = (UIImageView *) [self.view viewWithTag:2];
+    
+    
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.5];
+    
+    balloon.frame = CGRectMake(56, 260, 264, 180);
+    
+    [UIView commitAnimations];
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 
 - (void)drawTimeline {
     UIImageView *image1 = (UIImageView *) [self.view viewWithTag:1];
-    UIImageView *image2 = (UIImageView *) [self.view viewWithTag:2];
-    image1.image = [[UIImage imageNamed:@"dummy_guy_1.png"] roundWithRadius:3];
-    image2.image = [[UIImage imageNamed:@"dummy_guy_2.png"] roundWithRadius:3];
+    
+    UIImageView *balloon = (UIImageView *) [self.view viewWithTag:2];
+    
+    //UIImageView *image2 = (UIImageView *) [self.view viewWithTag:2];
+    image1.image = [[UIImage imageNamed:@"dummy_guy_1.png"] roundWithRadius:22];
+    //image2.image = [[UIImage imageNamed:@"dummy_guy_2.png"] roundWithRadius:3];
+    
+    balloon.image = [[UIImage imageNamed:@"balloon.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(46, 20, 24, 241) resizingMode:UIImageResizingModeTile];
+    
+    //balloon.frame = CGRectMake(56, 260, 400, 180);
+    
+    
 }
 
 @end

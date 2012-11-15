@@ -57,6 +57,11 @@
 		C3FAC2DE1655621D00A4A5DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FAC2AB1655621D00A4A5DE /* Default@2x.png */; };
 		C3FAC2DF1655621D00A4A5DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3FAC2AD1655621D00A4A5DE /* InfoPlist.strings */; };
 		C3FAC2E11655621D00A4A5DE /* TimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FAC2B21655621D00A4A5DE /* TimelineViewController.xib */; };
+		C3FAC2E81655636000A4A5DE /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FAC2E61655636000A4A5DE /* balloon.png */; };
+		C3FAC2E91655636000A4A5DE /* balloon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FAC2E71655636000A4A5DE /* balloon@2x.png */; };
+		C3FAC2ED1655636500A4A5DE /* frame-background.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FAC2EB1655636500A4A5DE /* frame-background.png */; };
+		C3FAC2EE1655636500A4A5DE /* frame-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FAC2EC1655636500A4A5DE /* frame-background@2x.png */; };
+		C3FAC2F0165563C100A4A5DE /* TimelineViewControllerA.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FAC2EF165563C100A4A5DE /* TimelineViewControllerA.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +121,11 @@
 		C3FAC2AF1655621D00A4A5DE /* omni_timeline-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "omni_timeline-Info.plist"; sourceTree = "<group>"; };
 		C3FAC2B01655621D00A4A5DE /* omni_timeline-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "omni_timeline-Prefix.pch"; sourceTree = "<group>"; };
 		C3FAC2B21655621D00A4A5DE /* TimelineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineViewController.xib; sourceTree = "<group>"; };
+		C3FAC2E61655636000A4A5DE /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		C3FAC2E71655636000A4A5DE /* balloon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon@2x.png"; sourceTree = "<group>"; };
+		C3FAC2EB1655636500A4A5DE /* frame-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-background.png"; sourceTree = "<group>"; };
+		C3FAC2EC1655636500A4A5DE /* frame-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-background@2x.png"; sourceTree = "<group>"; };
+		C3FAC2EF165563C100A4A5DE /* TimelineViewControllerA.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineViewControllerA.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +227,10 @@
 		C3FAC28B1655621D00A4A5DE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C3FAC2EB1655636500A4A5DE /* frame-background.png */,
+				C3FAC2EC1655636500A4A5DE /* frame-background@2x.png */,
+				C3FAC2E61655636000A4A5DE /* balloon.png */,
+				C3FAC2E71655636000A4A5DE /* balloon@2x.png */,
 				C3FAC28C1655621D00A4A5DE /* background.png */,
 				C3FAC28D1655621D00A4A5DE /* background@2x.png */,
 				C3FAC28E1655621D00A4A5DE /* calendar-blue.png */,
@@ -274,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				C3FAC2B21655621D00A4A5DE /* TimelineViewController.xib */,
+				C3FAC2EF165563C100A4A5DE /* TimelineViewControllerA.xib */,
 			);
 			name = views;
 			path = omni_timeline/views;
@@ -373,6 +388,11 @@
 				C3FAC2DE1655621D00A4A5DE /* Default@2x.png in Resources */,
 				C3FAC2DF1655621D00A4A5DE /* InfoPlist.strings in Resources */,
 				C3FAC2E11655621D00A4A5DE /* TimelineViewController.xib in Resources */,
+				C3FAC2E81655636000A4A5DE /* balloon.png in Resources */,
+				C3FAC2E91655636000A4A5DE /* balloon@2x.png in Resources */,
+				C3FAC2ED1655636500A4A5DE /* frame-background.png in Resources */,
+				C3FAC2EE1655636500A4A5DE /* frame-background@2x.png in Resources */,
+				C3FAC2F0165563C100A4A5DE /* TimelineViewControllerA.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

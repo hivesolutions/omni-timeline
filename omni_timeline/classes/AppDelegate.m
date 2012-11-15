@@ -43,7 +43,7 @@
     // creates a new timeline view controller and sets it as the
     // root view controller, then sets the window as visible and
     // as the key window (the main one)
-    TimelineViewController *timelineViewController = [[TimelineViewController alloc] initWithNibName:@"TimelineViewController" bundle:nil];
+    TimelineViewController *timelineViewController = [[TimelineViewController alloc] initWithNibName:@"TimelineViewControllerA" bundle:nil];
     self.window.rootViewController = timelineViewController;
     [self.window makeKeyAndVisible];
     
