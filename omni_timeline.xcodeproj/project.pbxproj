@@ -201,12 +201,12 @@
 		C316B147165547420062D334 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				C316B14F1655479C0062D334 /* TimelineViewController.h */,
-				C316B1501655479C0062D334 /* TimelineViewController.m */,
-				C316B14C1655475E0062D334 /* main.m */,
 				C316B148165547420062D334 /* AppDelegate.h */,
 				C316B149165547420062D334 /* AppDelegate.m */,
 				C316B14A165547420062D334 /* Dependencies.h */,
+				C316B14C1655475E0062D334 /* main.m */,
+				C316B14F1655479C0062D334 /* TimelineViewController.h */,
+				C316B1501655479C0062D334 /* TimelineViewController.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
