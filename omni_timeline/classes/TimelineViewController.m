@@ -41,9 +41,6 @@
     // the current view (should be able to change the background)
     UIImage *patternImage = [UIImage imageNamed:@"background.png"];
     self.view.backgroundColor = [UIColor colorWithPatternImage:patternImage];
-    
-    
-    
 
     [self drawTimeline];
 }
@@ -52,7 +49,6 @@
     [super viewWillAppear:animated];
     
     // @TODO: temporary full screen approach
-    
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
 }
 
