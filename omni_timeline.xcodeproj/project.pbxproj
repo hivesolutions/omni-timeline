@@ -32,8 +32,8 @@
 		C316B0F21655470F0062D334 /* dummy_guy_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B0D81655470F0062D334 /* dummy_guy_2@2x.png */; };
 		C316B0F31655470F0062D334 /* dummy_guy_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B0D91655470F0062D334 /* dummy_guy_3.png */; };
 		C316B0F41655470F0062D334 /* dummy_guy_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B0DA1655470F0062D334 /* dummy_guy_3@2x.png */; };
-		C316B0F51655470F0062D334 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B0DB1655470F0062D334 /* marker.png */; };
-		C316B0F61655470F0062D334 /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B0DC1655470F0062D334 /* marker@2x.png */; };
+		C316B0F51655470F0062D334 /* point-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B0DB1655470F0062D334 /* point-marker.png */; };
+		C316B0F61655470F0062D334 /* point-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B0DC1655470F0062D334 /* point-marker@2x.png */; };
 		C316B0F71655470F0062D334 /* point-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B0DD1655470F0062D334 /* point-blue.png */; };
 		C316B0F81655470F0062D334 /* point-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B0DE1655470F0062D334 /* point-blue@2x.png */; };
 		C316B0F91655470F0062D334 /* point-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B0DF1655470F0062D334 /* point-dark.png */; };
@@ -44,10 +44,23 @@
 		C316B14D1655475E0062D334 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C316B14C1655475E0062D334 /* main.m */; };
 		C316B1521655479C0062D334 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C316B1501655479C0062D334 /* TimelineViewController.m */; };
 		C316B155165547B10062D334 /* TimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C316B154165547B10062D334 /* TimelineViewController.xib */; };
+		C316B15816554BEB0062D334 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B15616554BEB0062D334 /* line.png */; };
+		C316B15916554BEB0062D334 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C316B15716554BEB0062D334 /* line@2x.png */; };
+		C3408B291655527E009AEBB1 /* Cameo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3408B281655527D009AEBB1 /* Cameo.framework */; };
+		C3408B3B16555461009AEBB1 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C3408B3116555461009AEBB1 /* Icon-72.png */; };
+		C3408B3C16555461009AEBB1 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3408B3216555461009AEBB1 /* Icon-72@2x.png */; };
+		C3408B3D16555461009AEBB1 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C3408B3316555461009AEBB1 /* Icon-Small-50.png */; };
+		C3408B3E16555461009AEBB1 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3408B3416555461009AEBB1 /* Icon-Small-50@2x.png */; };
+		C3408B3F16555461009AEBB1 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C3408B3516555461009AEBB1 /* Icon-Small.png */; };
+		C3408B4016555461009AEBB1 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3408B3616555461009AEBB1 /* Icon-Small@2x.png */; };
+		C3408B4116555461009AEBB1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3408B3716555461009AEBB1 /* Icon.png */; };
+		C3408B4216555461009AEBB1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3408B3816555461009AEBB1 /* Icon@2x.png */; };
+		C3408B4316555461009AEBB1 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = C3408B3916555461009AEBB1 /* iTunesArtwork.png */; };
+		C3408B4416555461009AEBB1 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3408B3A16555461009AEBB1 /* iTunesArtwork@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C311E9DA1655453B006D6197 /* Omni Timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omni Timeline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C311E9DA1655453B006D6197 /* omni_timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omni_timeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C311E9DE1655453B006D6197 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C311E9E01655453B006D6197 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C311E9E21655453B006D6197 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,8 +88,8 @@
 		C316B0D81655470F0062D334 /* dummy_guy_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dummy_guy_2@2x.png"; sourceTree = "<group>"; };
 		C316B0D91655470F0062D334 /* dummy_guy_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy_guy_3.png; sourceTree = "<group>"; };
 		C316B0DA1655470F0062D334 /* dummy_guy_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dummy_guy_3@2x.png"; sourceTree = "<group>"; };
-		C316B0DB1655470F0062D334 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
-		C316B0DC1655470F0062D334 /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		C316B0DB1655470F0062D334 /* point-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point-marker.png"; sourceTree = "<group>"; };
+		C316B0DC1655470F0062D334 /* point-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point-marker@2x.png"; sourceTree = "<group>"; };
 		C316B0DD1655470F0062D334 /* point-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point-blue.png"; sourceTree = "<group>"; };
 		C316B0DE1655470F0062D334 /* point-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point-blue@2x.png"; sourceTree = "<group>"; };
 		C316B0DF1655470F0062D334 /* point-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point-dark.png"; sourceTree = "<group>"; };
@@ -90,6 +103,19 @@
 		C316B14F1655479C0062D334 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
 		C316B1501655479C0062D334 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
 		C316B154165547B10062D334 /* TimelineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimelineViewController.xib; path = views/TimelineViewController.xib; sourceTree = "<group>"; };
+		C316B15616554BEB0062D334 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		C316B15716554BEB0062D334 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		C3408B281655527D009AEBB1 /* Cameo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cameo.framework; path = ../../../Documents/Cameo/Cameo.framework; sourceTree = "<group>"; };
+		C3408B3116555461009AEBB1 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C3408B3216555461009AEBB1 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		C3408B3316555461009AEBB1 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		C3408B3416555461009AEBB1 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		C3408B3516555461009AEBB1 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		C3408B3616555461009AEBB1 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C3408B3716555461009AEBB1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C3408B3816555461009AEBB1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C3408B3916555461009AEBB1 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		C3408B3A16555461009AEBB1 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3408B291655527E009AEBB1 /* Cameo.framework in Frameworks */,
 				C311E9DF1655453B006D6197 /* UIKit.framework in Frameworks */,
 				C311E9E11655453B006D6197 /* Foundation.framework in Frameworks */,
 				C311E9E31655453B006D6197 /* CoreGraphics.framework in Frameworks */,
@@ -118,7 +145,7 @@
 		C311E9DB1655453B006D6197 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C311E9DA1655453B006D6197 /* Omni Timeline.app */,
+				C311E9DA1655453B006D6197 /* omni_timeline.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,6 +153,7 @@
 		C311E9DD1655453B006D6197 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3408B281655527D009AEBB1 /* Cameo.framework */,
 				C311E9DE1655453B006D6197 /* UIKit.framework */,
 				C311E9E01655453B006D6197 /* Foundation.framework */,
 				C311E9E21655453B006D6197 /* CoreGraphics.framework */,
@@ -160,6 +188,7 @@
 		C316B0C71655470F0062D334 /* static */ = {
 			isa = PBXGroup;
 			children = (
+				C3408B3016555461009AEBB1 /* icons */,
 				C316B0C81655470F0062D334 /* images */,
 			);
 			path = static;
@@ -168,6 +197,8 @@
 		C316B0C81655470F0062D334 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C316B15616554BEB0062D334 /* line.png */,
+				C316B15716554BEB0062D334 /* line@2x.png */,
 				C316B0C91655470F0062D334 /* background.png */,
 				C316B0CA1655470F0062D334 /* background@2x.png */,
 				C316B0CB1655470F0062D334 /* calendar-blue.png */,
@@ -186,8 +217,8 @@
 				C316B0D81655470F0062D334 /* dummy_guy_2@2x.png */,
 				C316B0D91655470F0062D334 /* dummy_guy_3.png */,
 				C316B0DA1655470F0062D334 /* dummy_guy_3@2x.png */,
-				C316B0DB1655470F0062D334 /* marker.png */,
-				C316B0DC1655470F0062D334 /* marker@2x.png */,
+				C316B0DB1655470F0062D334 /* point-marker.png */,
+				C316B0DC1655470F0062D334 /* point-marker@2x.png */,
 				C316B0DD1655470F0062D334 /* point-blue.png */,
 				C316B0DE1655470F0062D334 /* point-blue@2x.png */,
 				C316B0DF1655470F0062D334 /* point-dark.png */,
@@ -219,12 +250,29 @@
 			name = views;
 			sourceTree = "<group>";
 		};
+		C3408B3016555461009AEBB1 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				C3408B3116555461009AEBB1 /* Icon-72.png */,
+				C3408B3216555461009AEBB1 /* Icon-72@2x.png */,
+				C3408B3316555461009AEBB1 /* Icon-Small-50.png */,
+				C3408B3416555461009AEBB1 /* Icon-Small-50@2x.png */,
+				C3408B3516555461009AEBB1 /* Icon-Small.png */,
+				C3408B3616555461009AEBB1 /* Icon-Small@2x.png */,
+				C3408B3716555461009AEBB1 /* Icon.png */,
+				C3408B3816555461009AEBB1 /* Icon@2x.png */,
+				C3408B3916555461009AEBB1 /* iTunesArtwork.png */,
+				C3408B3A16555461009AEBB1 /* iTunesArtwork@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C311E9D91655453B006D6197 /* Omni Timeline */ = {
+		C311E9D91655453B006D6197 /* omni_timeline */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C311E9F81655453B006D6197 /* Build configuration list for PBXNativeTarget "Omni Timeline" */;
+			buildConfigurationList = C311E9F81655453B006D6197 /* Build configuration list for PBXNativeTarget "omni_timeline" */;
 			buildPhases = (
 				C311E9D61655453B006D6197 /* Sources */,
 				C311E9D71655453B006D6197 /* Frameworks */,
@@ -234,9 +282,9 @@
 			);
 			dependencies = (
 			);
-			name = "Omni Timeline";
+			name = omni_timeline;
 			productName = "Omni Timeline";
-			productReference = C311E9DA1655453B006D6197 /* Omni Timeline.app */;
+			productReference = C311E9DA1655453B006D6197 /* omni_timeline.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +308,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C311E9D91655453B006D6197 /* Omni Timeline */,
+				C311E9D91655453B006D6197 /* omni_timeline */,
 			);
 		};
 /* End PBXProject section */
@@ -292,8 +340,8 @@
 				C316B0F21655470F0062D334 /* dummy_guy_2@2x.png in Resources */,
 				C316B0F31655470F0062D334 /* dummy_guy_3.png in Resources */,
 				C316B0F41655470F0062D334 /* dummy_guy_3@2x.png in Resources */,
-				C316B0F51655470F0062D334 /* marker.png in Resources */,
-				C316B0F61655470F0062D334 /* marker@2x.png in Resources */,
+				C316B0F51655470F0062D334 /* point-marker.png in Resources */,
+				C316B0F61655470F0062D334 /* point-marker@2x.png in Resources */,
 				C316B0F71655470F0062D334 /* point-blue.png in Resources */,
 				C316B0F81655470F0062D334 /* point-blue@2x.png in Resources */,
 				C316B0F91655470F0062D334 /* point-dark.png in Resources */,
@@ -301,6 +349,18 @@
 				C316B0FB1655470F0062D334 /* point-light.png in Resources */,
 				C316B0FC1655470F0062D334 /* point-light@2x.png in Resources */,
 				C316B155165547B10062D334 /* TimelineViewController.xib in Resources */,
+				C316B15816554BEB0062D334 /* line.png in Resources */,
+				C316B15916554BEB0062D334 /* line@2x.png in Resources */,
+				C3408B3B16555461009AEBB1 /* Icon-72.png in Resources */,
+				C3408B3C16555461009AEBB1 /* Icon-72@2x.png in Resources */,
+				C3408B3D16555461009AEBB1 /* Icon-Small-50.png in Resources */,
+				C3408B3E16555461009AEBB1 /* Icon-Small-50@2x.png in Resources */,
+				C3408B3F16555461009AEBB1 /* Icon-Small.png in Resources */,
+				C3408B4016555461009AEBB1 /* Icon-Small@2x.png in Resources */,
+				C3408B4116555461009AEBB1 /* Icon.png in Resources */,
+				C3408B4216555461009AEBB1 /* Icon@2x.png in Resources */,
+				C3408B4316555461009AEBB1 /* iTunesArtwork.png in Resources */,
+				C3408B4416555461009AEBB1 /* iTunesArtwork@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,9 +446,14 @@
 		C311E9F91655453B006D6197 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/Cameo\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Omni Timeline/Omni Timeline-Prefix.pch";
 				INFOPLIST_FILE = "Omni Timeline/Omni Timeline-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,9 +462,14 @@
 		C311E9FA1655453B006D6197 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/Cameo\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Omni Timeline/Omni Timeline-Prefix.pch";
 				INFOPLIST_FILE = "Omni Timeline/Omni Timeline-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C311E9F81655453B006D6197 /* Build configuration list for PBXNativeTarget "Omni Timeline" */ = {
+		C311E9F81655453B006D6197 /* Build configuration list for PBXNativeTarget "omni_timeline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C311E9F91655453B006D6197 /* Debug */,

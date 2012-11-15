@@ -37,13 +37,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // retrieves the pattern image to be used and sets it in
+    // the current view (should be able to change the background)
+    UIImage *patternImage = [UIImage imageNamed:@"background.png"];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:patternImage];
     
     
     
+
+    [self drawTimeline];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    // @TODO: temporary full screen approach
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (void)drawTimeline {
+    UIImageView *image1 = (UIImageView *) [self.view viewWithTag:1];
+    UIImageView *image2 = (UIImageView *) [self.view viewWithTag:2];
+    image1.image = [[UIImage imageNamed:@"dummy_guy_1.png"] roundWithRadius:3];
+    image2.image = [[UIImage imageNamed:@"dummy_guy_2.png"] roundWithRadius:3];
 }
 
 @end

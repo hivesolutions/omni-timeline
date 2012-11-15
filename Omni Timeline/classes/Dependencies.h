@@ -27,5 +27,6 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import <Foundation/Foundation.h>
+#import <Cameo/Cameo.h>
 
 // library dependency includes
