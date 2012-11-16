@@ -454,6 +454,7 @@
 				GCC_PREFIX_HEADER = "src/support/omni_timeline-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/src/support/omni_timeline-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +471,7 @@
 				GCC_PREFIX_HEADER = "src/support/omni_timeline-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/src/support/omni_timeline-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
