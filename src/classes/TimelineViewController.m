@@ -57,14 +57,10 @@
     
     UIImageView *balloon = (UIImageView *) [self.view viewWithTag:2];
     
-    
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.5];
-    
     balloon.frame = CGRectMake(56, 260, 264, 180);
-    
     [UIView commitAnimations];
-    
 }
 
 - (void)didReceiveMemoryWarning {
