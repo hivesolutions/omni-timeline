@@ -460,7 +460,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../Documents/Cameo\"",
+					"\"~/Documents/Cameo\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/support/omni_timeline-Prefix.pch";
@@ -477,7 +477,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../Documents/Cameo\"",
+					"\"~/Documents/Cameo\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/support/omni_timeline-Prefix.pch";
