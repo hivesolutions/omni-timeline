@@ -54,6 +54,7 @@
 		C311E9E11655453B006D6197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C311E9E01655453B006D6197 /* Foundation.framework */; };
 		C311E9E31655453B006D6197 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C311E9E21655453B006D6197 /* CoreGraphics.framework */; };
 		C3408B291655527E009AEBB1 /* Cameo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3408B281655527D009AEBB1 /* Cameo.framework */; };
+		C3B5A7BE165CEE4100EEE8D1 /* HMBaseResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C3B5A7BD165CEE4100EEE8D1 /* HMBaseResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,7 +110,8 @@
 		C311E9DE1655453B006D6197 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C311E9E01655453B006D6197 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C311E9E21655453B006D6197 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C3408B281655527D009AEBB1 /* Cameo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cameo.framework; path = ../../../Documents/Cameo/Cameo.framework; sourceTree = "<group>"; };
+		C3408B281655527D009AEBB1 /* Cameo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cameo.framework; path = ../../../../../../../../Documents/Cameo/Cameo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B5A7BD165CEE4100EEE8D1 /* HMBaseResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HMBaseResources.bundle; path = ../../../../../../../../Documents/Cameo/Cameo.framework/Versions/A/Resources/HMBaseResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,12 +264,21 @@
 		C311E9E41655453B006D6197 /* Omni Timeline */ = {
 			isa = PBXGroup;
 			children = (
+				C3B5A7BF165CEE5300EEE8D1 /* bundles */,
 				C30DB9EA1655735A002B678E /* classes */,
 				C30DB9F11655735A002B678E /* static */,
 				C30DBA1A1655735A002B678E /* support */,
 				C30DBA1F1655735A002B678E /* views */,
 			);
 			path = "Omni Timeline";
+			sourceTree = "<group>";
+		};
+		C3B5A7BF165CEE5300EEE8D1 /* bundles */ = {
+			isa = PBXGroup;
+			children = (
+				C3B5A7BD165CEE4100EEE8D1 /* HMBaseResources.bundle */,
+			);
+			name = bundles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B5A7BE165CEE4100EEE8D1 /* HMBaseResources.bundle in Resources */,
 				C30DBA251655735A002B678E /* Icon-72.png in Resources */,
 				C30DBA261655735A002B678E /* Icon-72@2x.png in Resources */,
 				C30DBA271655735A002B678E /* Icon-Small-50.png in Resources */,
