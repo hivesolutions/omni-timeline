@@ -60,7 +60,7 @@
     
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.5];
-    balloon.frame = CGRectMake(56, 260, 265, 181);
+    balloon.frame = CGRectMake(56, 260, 265, 178);
     [UIView commitAnimations];
 }
 
