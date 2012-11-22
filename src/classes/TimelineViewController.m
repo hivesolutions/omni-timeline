@@ -43,13 +43,6 @@
     UIImage *patternImage = [UIImage imageNamed:@"background.png"];
     self.view.backgroundColor = [UIColor colorWithPatternImage:patternImage];
     
-    // retrieves the sprite image and then uses it to create the animation
-    // and then adds it to the current view
-    UIImage *sprite = [UIImage imageNamed:@"dummy_girl_2.png"];
-    UIImageView *animation = [UIImage animationFromSprite:sprite width:44 height:22];
-    [self.view addSubview:animation];
-    [animation startAnimating];
-    
     [self drawTimeline];
 }
 
