@@ -60,7 +60,7 @@
     
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.5];
-    balloon.frame = CGRectMake(56, 260, 264, 180);
+    balloon.frame = CGRectMake(56, 260, 265, 181);
     [UIView commitAnimations];
 }
 
@@ -81,9 +81,7 @@
     image1.image = [[UIImage imageNamed:@"dummy_guy_1.png"] roundWithRadius:22];
     //image2.image = [[UIImage imageNamed:@"dummy_guy_2.png"] roundWithRadius:3];
     
-    balloon.image = [[UIImage imageNamed:@"balloon.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(46, 20, 24, 241)];
-    
-    //balloon.frame = CGRectMake(56, 260, 400, 180)
+    balloon.image = [[UIImage imageNamed:@"balloon.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(46, 30, 21, 229)];
 }
 
 @end
