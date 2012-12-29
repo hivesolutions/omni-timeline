@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2517E3E168F26A900704085 /* HMBaseResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2517E3D168F26A900704085 /* HMBaseResources.bundle */; };
+		C2517E40168F26CC00704085 /* Cameo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2517E3F168F26CC00704085 /* Cameo.framework */; };
 		C30DBA221655735A002B678E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB9EC1655735A002B678E /* AppDelegate.m */; };
 		C30DBA231655735A002B678E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB9EE1655735A002B678E /* main.m */; };
 		C30DBA241655735A002B678E /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB9F01655735A002B678E /* TimelineViewController.m */; };
@@ -53,11 +55,11 @@
 		C311E9DF1655453B006D6197 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C311E9DE1655453B006D6197 /* UIKit.framework */; };
 		C311E9E11655453B006D6197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C311E9E01655453B006D6197 /* Foundation.framework */; };
 		C311E9E31655453B006D6197 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C311E9E21655453B006D6197 /* CoreGraphics.framework */; };
-		C3408B291655527E009AEBB1 /* Cameo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3408B281655527D009AEBB1 /* Cameo.framework */; };
-		C3B5A7BE165CEE4100EEE8D1 /* HMBaseResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C3B5A7BD165CEE4100EEE8D1 /* HMBaseResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2517E3D168F26A900704085 /* HMBaseResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HMBaseResources.bundle; path = /Applications/Xcode.app/Contents/Developer/../../../../Documents/Cameo/Cameo.framework/Versions/A/Resources/HMBaseResources.bundle; sourceTree = "<absolute>"; };
+		C2517E3F168F26CC00704085 /* Cameo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cameo.framework; path = /Applications/Xcode.app/Contents/Developer/../../../../Documents/Cameo/Cameo.framework; sourceTree = "<absolute>"; };
 		C30DB9EB1655735A002B678E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C30DB9EC1655735A002B678E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C30DB9ED1655735A002B678E /* Dependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dependencies.h; sourceTree = "<group>"; };
@@ -110,8 +112,6 @@
 		C311E9DE1655453B006D6197 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C311E9E01655453B006D6197 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C311E9E21655453B006D6197 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C3408B281655527D009AEBB1 /* Cameo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cameo.framework; path = ../../../../../../../../Documents/Cameo/Cameo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3B5A7BD165CEE4100EEE8D1 /* HMBaseResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HMBaseResources.bundle; path = ../../../../../../../../Documents/Cameo/Cameo.framework/Versions/A/Resources/HMBaseResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3408B291655527E009AEBB1 /* Cameo.framework in Frameworks */,
+				C2517E40168F26CC00704085 /* Cameo.framework in Frameworks */,
 				C311E9DF1655453B006D6197 /* UIKit.framework in Frameworks */,
 				C311E9E11655453B006D6197 /* Foundation.framework in Frameworks */,
 				C311E9E31655453B006D6197 /* CoreGraphics.framework in Frameworks */,
@@ -253,7 +253,7 @@
 		C311E9DD1655453B006D6197 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C3408B281655527D009AEBB1 /* Cameo.framework */,
+				C2517E3F168F26CC00704085 /* Cameo.framework */,
 				C311E9DE1655453B006D6197 /* UIKit.framework */,
 				C311E9E01655453B006D6197 /* Foundation.framework */,
 				C311E9E21655453B006D6197 /* CoreGraphics.framework */,
@@ -276,7 +276,7 @@
 		C3B5A7BF165CEE5300EEE8D1 /* bundles */ = {
 			isa = PBXGroup;
 			children = (
-				C3B5A7BD165CEE4100EEE8D1 /* HMBaseResources.bundle */,
+				C2517E3D168F26A900704085 /* HMBaseResources.bundle */,
 			);
 			name = bundles;
 			sourceTree = "<group>";
@@ -332,7 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3B5A7BE165CEE4100EEE8D1 /* HMBaseResources.bundle in Resources */,
+				C2517E3E168F26A900704085 /* HMBaseResources.bundle in Resources */,
 				C30DBA251655735A002B678E /* Icon-72.png in Resources */,
 				C30DBA261655735A002B678E /* Icon-72@2x.png in Resources */,
 				C30DBA271655735A002B678E /* Icon-Small-50.png in Resources */,
@@ -460,7 +460,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"~/Documents/Cameo\"",
+					/Documents/Cameo,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/support/omni_timeline-Prefix.pch";
@@ -477,7 +477,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"~/Documents/Cameo\"",
+					/Documents/Cameo,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/support/omni_timeline-Prefix.pch";
