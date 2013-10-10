@@ -37,27 +37,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     // retrieves the pattern image to be used and sets it in
     // the current view (should be able to change the background)
     UIImage *patternImage = [UIImage imageNamed:@"background.png"];
     self.view.backgroundColor = [UIColor colorWithPatternImage:patternImage];
-    
+
     [self drawTimeline];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
+
     // @TODO: temporary full screen approach
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
+
     UIImageView *balloon = (UIImageView *) [self.view viewWithTag:2];
-    
+
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.5];
     balloon.frame = CGRectMake(56, 260, 265, 178);
@@ -74,13 +74,13 @@
 
 - (void)drawTimeline {
     UIImageView *image1 = (UIImageView *) [self.view viewWithTag:1];
-    
+
     UIImageView *balloon = (UIImageView *) [self.view viewWithTag:2];
-    
+
     //UIImageView *image2 = (UIImageView *) [self.view viewWithTag:2];
     image1.image = [[UIImage imageNamed:@"dummy_guy_1.png"] roundWithRadius:22];
     //image2.image = [[UIImage imageNamed:@"dummy_guy_2.png"] roundWithRadius:3];
-    
+
     balloon.image = [[UIImage imageNamed:@"balloon.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(46, 30, 21, 229)];
 }
 

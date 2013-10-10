@@ -35,18 +35,18 @@
     // initializes the default values in the preferences structure
     // in case they don't already exist (and are defined)
     [self setDefaults];
-    
+
     // creates a new window object and sets it in the current application
     // (this should be the main window of the application)
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
+
     // creates a new timeline view controller and sets it as the
     // root view controller, then sets the window as visible and
     // as the key window (the main one)
     TimelineViewController *timelineViewController = [[TimelineViewController alloc] initWithNibName:@"TimelineViewControllerA" bundle:nil];
     self.window.rootViewController = timelineViewController;
     [self.window makeKeyAndVisible];
-    
+
     return YES;
 }
 
@@ -71,7 +71,7 @@
     // to check if theya are already defined
     NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
     NSString *baseUrl = [preferences valueForKey:@"baseUrl"];
-    
+
     // checks various value for the presence of the value and in
     // case it's not defined sets the default value, then flushes
     // the preferences to the secondary storage
